@@ -8,6 +8,8 @@ import twitter from '../../assets/twitter.svg'
 import insta from '../../assets/instagram.svg'
 import Dribbble from '../../assets/Dribble.svg'
 import lupa from '../../assets/lupa.svg'
+import down from '../../assets/down.svg'
+import activo from '../../assets/activo.svg'
 
 export const Header = () => {
   return (
@@ -34,7 +36,13 @@ export const Header = () => {
                     <span> LIBEL ACADEMY </span>
                 </div>
                 <div className={`${styles.horizontalInferior }`} >
-                    <span>Home</span>
+                    <div>
+                        <span id={styles.home} >Home</span>
+                        <img className={styles.down} src={down} alt="" />
+                        <img className={styles.activo} src={activo} alt="" />
+
+                    </div>
+                    
                     <span>About</span>
                     <span>Services</span>
                     <span>Pricing</span>
@@ -47,7 +55,10 @@ export const Header = () => {
             </div>
 
 
-        </div>    
+        </div> 
+        <div >
+            
+        </div>   
     </div>
   )
 }

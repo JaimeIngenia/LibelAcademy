@@ -56,6 +56,10 @@
 }
 .vertical div:nth-child(1){
     color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .horizontalInferior{
     display: flex;
@@ -66,10 +70,29 @@
     align-items: center;
     
 }
+
+.horizontalInferior div{
+    margin-right: 10px;
+    font-size: 8px;
+}
+.horizontalInferior div span{
+    font-size: 5px;
+    position: relative;
+    margin-right: none!important;
+}
+#home{
+    margin-right: 2px;
+}
+.down{
+    width: 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .horizontalInferior span{
     margin-right: 10px;
-
-
 }
 .carrito{
     width: 10px;
@@ -85,6 +108,14 @@
     background-color: white;
     color: #004DFF;
     margin-left: 10px;
-    font-size: 8px;
+    font-size: 6px;
     border: none;
+    font-weight: bold;
+}
+
+.activo{
+    width: 5px;
+    position: relative;
+    top: 7px;
+    right: 15px;
 }
