@@ -1,0 +1,90 @@
+.a{
+    border: solid 1px red;
+    width: 720px;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.horizontalsuperior{
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-size: 5px;
+    justify-content: space-between;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-size: 5px;
+}
+/*Lo mismo aplica para todos*/
+.horizontal span{
+    margin-right: 10px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.redes img:nth-child(1) {
+    width: 4px;
+}
+
+.redes img:nth-child(2),
+.redes img:nth-child(3),
+.redes img:nth-child(4)
+{
+    width: 8px;
+    margin-left: 4px;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.vertical div:nth-child(1){
+    color: white;
+}
+.horizontalInferior{
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.horizontalInferior span{
+    margin-right: 10px;
+
+
+}
+.carrito{
+    width: 10px;
+}
+.lupa{
+    width: 10px;
+    margin-left: 10px;
+}
+.boton{
+    border-radius: 10px;
+    width: 60px;
+    height: 18px;
+    background-color: white;
+    color: #004DFF;
+    margin-left: 10px;
+    font-size: 8px;
+    border: none;
+}
